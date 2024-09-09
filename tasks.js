@@ -1,0 +1,25 @@
+const tasks = [
+    {
+      "id": "1",
+      "description": "Complete React project setup",
+      "status": "todo",
+      "createdAt": "2024-09-09T10:00:00Z",
+      "updatedAt": "2024-09-09T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "description": "Implement user authentication",
+      "status": "in-progress",
+      "createdAt": "2024-09-08T14:30:00Z",
+      "updatedAt": "2024-09-09T12:45:00Z"
+    },
+    {
+      "id": "3",
+      "description": "Test and deploy application",
+      "status": "done",
+      "createdAt": "2024-09-07T09:15:00Z",
+      "updatedAt": "2024-09-08T17:20:00Z"
+    }
+]
+
+export default tasks;
