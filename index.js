@@ -2,7 +2,10 @@ import tasks from './tasks.js'
 import createTask from './CRUD/create.js'
 import deleteTask from './CRUD/delete.js'
 import askQuestion from "./CRUD/question.js";
+import read from './CRUD/read.js'
 import readline  from 'readline'
+import update from './CRUD/update.js'
+
 
 import rl from './CRUD/rl.js'
 
@@ -37,11 +40,11 @@ async function main() {
                 break;
             case '3':
                 // Implementa la funcionalidad de modificar tareas aquí
-                console.log("Funcionalidad de modificar tareas no implementada.");
+                await update()
                 break;
             case '4':
                 console.log("Tareas actuales:");
-                console.log(tasks);
+                await read()
                 break;
             case '0':
                 console.log("Saliendo...");
