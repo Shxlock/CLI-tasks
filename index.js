@@ -44,9 +44,10 @@ async function main() {
                 break;
             case '4':
                 console.log("Tareas actuales:");
-                await read()
+                read()
                 break;
             case '0':
+                console.log("--------------------------GRACIAS POR USAR NUESTRO PROGRAMA------------------------------------");
                 console.log("Saliendo...");
                 break;
             default:
