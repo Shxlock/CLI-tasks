@@ -1,4 +1,4 @@
-import tasks from './tasks.js'
+import tasks from './tasks.json' assert { type: 'json' };
 import createTask from './CRUD/create.js'
 import deleteTask from './CRUD/delete.js'
 import askQuestion from "./CRUD/question.js";

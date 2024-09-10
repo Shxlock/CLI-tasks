@@ -1,5 +1,5 @@
 import askQuestion from "./question.js";
-import tasks from '../tasks.js'
+import tasks from '../tasks.json' assert { type: 'json' };
 import readline  from 'readline'
 
 import rl from './rl.js'
